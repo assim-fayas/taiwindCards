@@ -9,37 +9,53 @@
 </head>
 
 <body class="bg-slate-950 grid place-content-center h-screen">
-    <h1 class="text-yellow-400 m-6"> hello tailwind</h1>
+    <h1 class="text-yellow-400 md:text-red-700 m-6"> hello tailwind</h1>
     <div class="">
-        <div class="p-6 max-w-sm  mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        <div class="p-3 max-w-sm  mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
             <div>
                 <img class="h-12 w-12"
                     src="https://t3.ftcdn.net/jpg/05/27/96/14/240_F_527961443_fn5iRKm8BVmZzPpPNF1PIqPc8zzgwcZJ.jpg"
                     alt="">
             </div>
             <div>
-                <div class="text-2xl font-medium text-black">
+                <div class="text-xl font-medium text-black">
                     CAR 1
                     <p class="text-slate-500 text-base">Car Collection</p>
                 </div>
             </div>
         </div>
     </div>
+    <!-- card 2 -->
     <div>
-        <div class="bg-white mx-auto p-6 m-2 rounded-xl shadow-lg grid  space-y-4 flex-col ">
+        <div class="bg-white  m-4 rounded-xl shadow-lg  space-y-4 flex-col overflow-hidden">
             <div>
-                <img class="h-12 w-12 " src="https://t3.ftcdn.net/jpg/05/73/22/12/240_F_573221209_ADeHDTP4SbgDBj5QU74TvE7gl93zLaSc.jpg"
-                    alt="">
+                <img class="h-12 w-full  "
+                    src="https://cdn.pixabay.com/photo/2017/04/11/15/55/animals-2222007_1280.jpg" alt="">
             </div>
-            <div>
-                <div class="text-2xl  font-medium text-black">
+            <div class="flex justify-center  ">
+                <div class="text-xl  font-medium text-black">
                     CAR 2
                     <p class="text-slate-500 text-base">This is car no two</p>
                 </div>
             </div>
         </div>
+        <button
+            class="bg-yellow-500 w-64 text-slate-50 font-normal text-xs rounded-xl  p-2 text-center mx-4  hover:ease-in duration-300 hover:bg-slate-400 opacity-80 hover:text-orange-600">By
+            Now</button>
     </div>
 
+    <!-- card 3 -->
+
+    <div class="mt-3">
+        <div class="max-w-sm mx-auto  bg-white rounded-xl  overflow-hidden md:max-w-2xl ">
+
+            <div class="flex">
+                <div class=" "><img class="h-48 w-full object-cover md:h-full md:w-48" src="https://img.freepik.com/free-photo/cartoon-character-with-yellow-jacket-sunglasses_71767-101.jpg?size=338&ext=jpg" alt="">
+                </div>
+                <div class="p-8">content</div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
